@@ -1,0 +1,96 @@
+/* LoginForm.css */
+.App{
+  padding: 2rem 0;
+}
+.login-container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px 0;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+/* TodoList.css */
+
+.todo-container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.remove-button {
+  background-color: #ff5555;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #ff3333;
+}
